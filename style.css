@@ -1,0 +1,55 @@
+ h1 {
+     color: #424242;
+     font-size: 45px;
+     font-style: italic;
+     font-weight: bolder;
+ }
+
+ .card-title {
+     margin-top: -80px;
+ }
+
+ #Advice {
+     font-size: 25px;
+
+
+ }
+
+
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     background-color: #80CBC4;
+ }
+
+ main .container {
+     background-color: #B2DFDB;
+     width: 450px;
+     height: 250px;
+     margin: 50px auto;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+     padding: 40px;
+     position: relative;
+     border-radius: 30px;
+     border: solid sandybrown;
+ }
+
+ #btn {
+     border-radius: 10%;
+     border: 1px solid black;
+     transition: all 0.5s ease-in-out;
+     background-color: transparent;
+     cursor: pointer;
+     padding: 5px;
+     position: absolute;
+     bottom: -14px;
+     left: calc(50% - 6px);
+     background-color: aqua;
+ }
